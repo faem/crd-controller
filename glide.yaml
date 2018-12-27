@@ -1,0 +1,18 @@
+package: crd-controller
+import:
+- package: github.com/tamalsaha/go-oneliners
+- package: k8s.io/apiextensions-apiserver
+- package: k8s.io/apimachinery
+  subpackages:
+    - pkg/api/errors
+    - pkg/apis/meta/v1
+    - pkg/labels
+    - pkg/runtime
+    - pkg/runtime/schema
+    - pkg/runtime/serializer
+    - pkg/types
+    - pkg/util/runtime
+    - pkg/watch
+- package: k8s.io/client-go
+- package: k8s.io/code-generator
+- package: k8s.io/gengo
